@@ -15,7 +15,7 @@
         </div>
         <div id="ddesc">
             <h1>Khaing Naing</h1>
-            <h2>I like to learn about AI and Machine Learning techniques that help turn data into (hopefully) good decisions 🤖🧠</h2>
+            <h2>ML engineer working on computer vision and clinical AI — I build the full stack from training pipelines to production inference.</h2>
             <div id="dico">
                 <a href="https://www.linkedin.com/in/khaingnaing">
                     <img src="assests/linkedin.svg" class="iico">
@@ -50,9 +50,13 @@
         </div>
         <div class="desc">
           <p>
-            I started as a junior ML engineer at
-            <a href="https://braineye.com/" target="_blank" rel="noopener">BrainEye</a>,
-            a ML + brain-health company.
+            I work as a Machine Learning Engineer at <a href="https://braineye.com/" target="_blank" rel="noopener">BrainEye</a>, a brain-health company building clinical eye-tracking technology for neurological assessment.
+
+            My main project was researching and deploying a 27-landmark heatmap eye-tracking model to replace an older dlib 27-landmark approach, achieving a 45% reduction in mean landmark error and halving the failure rate on clinical benchmarks. 
+            To get there, I built the full retraining pipeline from scratch: data augmentation (including synthetic occlusion and motion blur to handle real-world conditions), 
+            subject-aware train/test splitting to prevent identity leakage, PyTorch model training, and TFLite export for mobile deployment. 
+            I also integrated the model into the production C++ inference pipeline and built the evaluation tools used to validate it across clinical datasets.
+
           </p>
           <p class="muted">More details soon.</p>
         </div>
